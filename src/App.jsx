@@ -5,6 +5,7 @@ import Driver from "./components/Driver";
 import Team from "./components/Team";
 import "../src/app.css";
 import Recap from "./components/Recap";
+import spa from "./assets/spa.png"
 export default App;
 
 function App() {

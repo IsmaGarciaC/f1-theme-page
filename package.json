@@ -1,4 +1,5 @@
 {
+  "homepage": ".",
   "name": "react-web-miu",
   "private": true,
   "version": "0.0.0",
