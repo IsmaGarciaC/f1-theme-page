@@ -19,7 +19,7 @@ function App() {
         {/* The Tracks component shows each track card according to the information of the circuit, name, image, and description*/}
         <Tracks
           name={"MONACO"}
-          image={"../src/assets/monaco.png"}
+          image={"./assets/monaco.png"}
           desc={
             "The Monaco Grand Prix is a legendary F1 circuit, known for its narrow streets, tight corners, and stunning Monte Carlo backdrop, challenging driver precision and skill."
           }
