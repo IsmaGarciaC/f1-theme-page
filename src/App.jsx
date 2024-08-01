@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Tracks from "./components/Tracks";
 import Driver from "./components/Driver";
 import Team from "./components/Team";
-import "../src/app.css";
+import "./src/app.css";
 import Recap from "./components/Recap";
 export default App;
 
@@ -19,21 +19,21 @@ function App() {
         {/* The Tracks component shows each track card according to the information of the circuit, name, image, and description*/}
         <Tracks
           name={"MONACO"}
-          image={"../src/assets/monaco.png"}
+          image={"./src/assets/monaco.png"}
           desc={
             "The Monaco Grand Prix is a legendary F1 circuit, known for its narrow streets, tight corners, and stunning Monte Carlo backdrop, challenging driver precision and skill."
           }
         />
         <Tracks
           name={"SILVERSTONE"}
-          image={"../src/assets/silverstone.png"}
+          image={"./src/assets/silverstone.png"}
           desc={
             "Silverstone Circuit is a historic F1 track in the UK, known for its high-speed straights and iconic corners, offering a thrilling challenge for drivers."
           }
         />
         <Tracks
           name={"SPA-FRANCORCHAMPS"}
-          image={"../src/assets/spa.png"}
+          image={"./src/assets/spa.png"}
           desc={
             "Spa-Francorchamps is an iconic F1 circuit in Belgium, famous for its fast corners and the challenging Eau Rouge-Raidillon section, set in the scenic Ardennes Forest."
           }
@@ -45,19 +45,19 @@ function App() {
           <h2>Top 2024 Drivers</h2>
           <Driver
             driver={"Max Verstappen"}
-            avatar={"../src/assets/max.png"}
+            avatar={"./src/assets/max.png"}
             teammember={"Red Bull Racing"}
             stats={"https://www.formula1.com/en/drivers/max-verstappen"}
           />
           <Driver
             driver={"Lando Norris"}
-            avatar={"../src/assets/lando.png"}
+            avatar={"./src/assets/lando.png"}
             teammember={"McLaren"}
             stats={"https://www.formula1.com/en/drivers/lando-norris"}
           />
           <Driver
             driver={"Charles Leclerc"}
-            avatar={"../src/assets/charles.png"}
+            avatar={"./src/assets/charles.png"}
             teammember={"Ferrari"}
             stats={"https://www.formula1.com/en/drivers/charles-leclerc"}
           />
@@ -67,25 +67,25 @@ function App() {
           <h2>"The Big 4" Performance in 2024</h2>
           <Team
             teamname={"Ferrari"}
-            logo={"../src/assets/ferrari.jpg"}
+            logo={"./src/assets/ferrari.jpg"}
             score={"345pts"}
             story={"https://www.formula1.com/en/teams/ferrari"}
           />
           <Team
             teamname={"Mercedes"}
-            logo={"../src/assets/mercedes.jpeg"}
+            logo={"./src/assets/mercedes.jpeg"}
             score={"266pts"}
             story={"https://www.formula1.com/en/teams/mercedes"}
           />
           <Team
             teamname={"McLaren"}
-            logo={"../src/assets/mclaren.jpg"}
+            logo={"./src/assets/mclaren.jpg"}
             score={"366pts"}
             story={"https://www.formula1.com/en/teams/mclaren"}
           />
           <Team
             teamname={"Red Bull"}
-            logo={"../src/assets/redbull.png"}
+            logo={"./src/assets/redbull.png"}
             score={"408pts"}
             story={"https://www.formula1.com/en/teams/red-bull-racing"}
           />
