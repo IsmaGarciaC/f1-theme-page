@@ -5,7 +5,8 @@ import Driver from "./components/Driver";
 import Team from "./components/Team";
 import "../src/app.css";
 import Recap from "./components/Recap";
-import '../src/assets/spa.png'
+import spa from './assets/spa.png'
+import lando from './assets/lando.png'
 export default App;
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
         />
         <Tracks
           name={"SPA-FRANCORCHAMPS"}
-          image={"./src/assets/spa.png"}
+          image={spa}
           desc={
             "Spa-Francorchamps is an iconic F1 circuit in Belgium, famous for its fast corners and the challenging Eau Rouge-Raidillon section, set in the scenic Ardennes Forest."
           }
@@ -52,7 +53,7 @@ function App() {
           />
           <Driver
             driver={"Lando Norris"}
-            avatar={"./assets/lando.png"}
+            avatar={lando}
             teammember={"McLaren"}
             stats={"https://www.formula1.com/en/drivers/lando-norris"}
           />
