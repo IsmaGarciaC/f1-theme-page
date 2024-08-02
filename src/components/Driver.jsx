@@ -1,4 +1,5 @@
 import '../app.css';
+import spa from '../assets/spa.png'
 export default Driver;
 
 function Driver({driver, avatar, teammember, stats}){

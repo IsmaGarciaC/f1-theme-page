@@ -1,4 +1,5 @@
 import '../app.css';
+import spa from '../assets/spa.png'
 export default Tracks;
 function Tracks({name,image,desc}){ {/*Parameters for each component, in order to reuse them*/}
     return(

@@ -20,21 +20,21 @@ function App() {
         {/* The Tracks component shows each track card according to the information of the circuit, name, image, and description*/}
         <Tracks
           name={"MONACO"}
-          image={"./assets/monaco.png"}
+          image={"../src/assets/monaco.png"}
           desc={
             "The Monaco Grand Prix is a legendary F1 circuit, known for its narrow streets, tight corners, and stunning Monte Carlo backdrop, challenging driver precision and skill."
           }
         />
         <Tracks
           name={"SILVERSTONE"}
-          image={"./assets/silverstone.png"}
+          image={"./src/assets/silverstone.png"}
           desc={
             "Silverstone Circuit is a historic F1 track in the UK, known for its high-speed straights and iconic corners, offering a thrilling challenge for drivers."
           }
         />
         <Tracks
           name={"SPA-FRANCORCHAMPS"}
-          image={"./assets/spa.png"}
+          image={"./src/assets/spa.png"}
           desc={
             "Spa-Francorchamps is an iconic F1 circuit in Belgium, famous for its fast corners and the challenging Eau Rouge-Raidillon section, set in the scenic Ardennes Forest."
           }
