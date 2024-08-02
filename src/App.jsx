@@ -20,21 +20,21 @@ function App() {
         {/* The Tracks component shows each track card according to the information of the circuit, name, image, and description*/}
         <Tracks
           name={"MONACO"}
-          image={"../src/assets/monaco.png"}
+          image={"./assets/monaco.png"}
           desc={
             "The Monaco Grand Prix is a legendary F1 circuit, known for its narrow streets, tight corners, and stunning Monte Carlo backdrop, challenging driver precision and skill."
           }
         />
         <Tracks
           name={"SILVERSTONE"}
-          image={"../src/assets/silverstone.png"}
+          image={"./assets/silverstone.png"}
           desc={
             "Silverstone Circuit is a historic F1 track in the UK, known for its high-speed straights and iconic corners, offering a thrilling challenge for drivers."
           }
         />
         <Tracks
           name={"SPA-FRANCORCHAMPS"}
-          image={"../src/assets/spa.png"}
+          image={"./assets/spa.png"}
           desc={
             "Spa-Francorchamps is an iconic F1 circuit in Belgium, famous for its fast corners and the challenging Eau Rouge-Raidillon section, set in the scenic Ardennes Forest."
           }
@@ -46,19 +46,19 @@ function App() {
           <h2>Top 2024 Drivers</h2>
           <Driver
             driver={"Max Verstappen"}
-            avatar={"./src/assets/max.png"}
+            avatar={"./assets/max.png"}
             teammember={"Red Bull Racing"}
             stats={"https://www.formula1.com/en/drivers/max-verstappen"}
           />
           <Driver
             driver={"Lando Norris"}
-            avatar={"./src/assets/lando.png"}
+            avatar={"./assets/lando.png"}
             teammember={"McLaren"}
             stats={"https://www.formula1.com/en/drivers/lando-norris"}
           />
           <Driver
             driver={"Charles Leclerc"}
-            avatar={"./src/assets/charles.png"}
+            avatar={"./assets/charles.png"}
             teammember={"Ferrari"}
             stats={"https://www.formula1.com/en/drivers/charles-leclerc"}
           />
